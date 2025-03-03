@@ -8,7 +8,7 @@ import { Transaction } from '../models/transaction.model';
   providedIn: 'root'
 })
 export class TransactionService {
-  private apiUrl = `http://localhost:5000/api/transaction`;
+  private apiUrl = `https://nexus-capital.onrender.com/api/transaction`;
 
   constructor(private http: HttpClient) {}
 
