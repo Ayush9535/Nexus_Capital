@@ -7,7 +7,7 @@ import { catchError } from 'rxjs/operators';
   providedIn: 'root'
 })
 export class AuthService {
-  private apiUrl = 'http://localhost:5000/api/auth'; 
+  private apiUrl = 'https://nexus-capital.onrender.com/api/auth'; 
 
   constructor(private http: HttpClient) { }
 
