@@ -8,7 +8,7 @@ import { Budget } from '../models/budget.model';
   providedIn: 'root'
 })
 export class BudgetService {
-  private apiUrl = `http://localhost:5000/api/budget`;
+  private apiUrl = `https://nexus-capital.onrender.com/api/budget`;
 
   constructor(private http: HttpClient) {}
 
