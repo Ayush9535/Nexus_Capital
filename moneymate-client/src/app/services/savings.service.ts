@@ -8,7 +8,7 @@ import { SavingsGoal } from '../models/savings.model';
   providedIn: 'root'
 })
 export class SavingsService {
-  private apiUrl = `http://localhost:5000/api/savings`;
+  private apiUrl = `https://nexus-capital.onrender.com/api/savings`;
 
   constructor(private http: HttpClient) {}
 
